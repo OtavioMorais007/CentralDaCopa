@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap");
+
+* {
+  margin: 0;
+  font-family: Sora;
+}
+
+body {
+  background-color: #eee;
+}
+
+#container {
+  margin: 20px 0;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.navigation {
+  width: 100%;
+  justify-content: space-around;
+  margin: 20px auto;
+  display: flex;
+}
+
+.buttonDirect {
+  background-color: #042940;
+  color: white;
+  font-size: 1em;
+  border: 4px solid #042940;
+  cursor: pointer;
+  transition: 1s all;
+  border-radius: 15px;
+  padding: 15px 0px;
+  width: 180px;
+}
+
+.Team {
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Team img {
+  border-radius: 20px;
+}
+
+.targetingPlayers {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.targetingPlayers h3 {
+  font-size: 1.3em;
+}
+
+.buttonDirect:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.BoxGame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+  background-color: #eee;
+  width: 240px;
+  border-radius: 10px;
+  gap: 10px;
+  height: 50px;
+  padding: 40px 0px;
+}
+
+.BoxGameNone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+  background-color: #eee;
+  width: 240px;
+  gap: 10px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 40px 0px;
+}
+
+.BoxGame p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.BoxGameNone p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#qualifying {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  flex-direction: column;
+  border-radius: 20px;
+  transition: 1s all;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+#contQualifying {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+#matchCollaps {
+  order: 1;
+  display: none;
+}
+
+.Section {
+  width: 60%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#Button {
+  position: absolute;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px 0;
+  background-color: #042940;
+  color: #fff;
+  border: 3px solid #042940;
+  transition: 1s all;
+  border-radius: 5px;
+  margin: 0 auto;
+  align-self: flex-end;
+}
+
+#Button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+@media (max-width: 800px) {
+  .campNav {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  #qualifying {
+    width: 90%;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  background-color: #042940;
+}

@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.soccerTeams {
+  width: 90%;
+  margin: 50px auto;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  width: 350px;
+  border-radius: 15px;
+  padding: 40px;
+  gap: 4%;
+  justify-content: center;
+  background-color: #eee;
+  align-items: center;
+  transition: 1s all;
+}
+
+.card img {
+  border-radius: 8%;
+  width: 10em;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card h3 {
+  color: #000;
+  font-size: 2em;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  background-color: #042940;
+}
